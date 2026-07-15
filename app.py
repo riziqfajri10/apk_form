@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "API Studio Kirana Berjalan"
+    return "riziq ganteng berjalan"
 
 @app.route("/api/contact", methods=["POST"])
 def contact():
